@@ -1,0 +1,92 @@
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+}
+
+.miamiVice {
+  width: auto;
+  font-size: 4em;
+  font-size: 12vw;
+  margin: 0 auto -0.1em;
+  line-height: 1em;
+  color: #86DEFF;
+  font-weight: 300;
+  text-shadow: 0 0 .2em rgba(#86DEFF, .5);
+  position: relative;
+  transform: rotate3d(1, -1, 0, 35deg);
+  z-index: 2;
+}
+
+.miamiVice:after {
+  content: attr(data-text);
+  color: #FA74FB;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  text-shadow: 0 0 .5em rgba(#FA74FB, .5);
+  transform: translateX(calc(-50% - 0.05em));
+  z-index: -1;
+}
+
+.subtext {
+  font-size: 1em;
+  font-size: 2vw;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 .2em rgba(#fff, .5);
+  position: relative;
+  z-index: 2;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(#000, 0.5), rgba(#000, 0.5));
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding: 0 1em;
+}
+
+.hero {
+  position: relative;
+  z-index: 3;
+  padding: 0 1em;
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+
+}

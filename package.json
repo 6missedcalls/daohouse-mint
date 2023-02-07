@@ -12,11 +12,16 @@
     "@types/node": "18.11.19",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
+    "compass-mixins": "^0.12.12",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "node-sass": "^7.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-particles": "^2.8.0",
+    "sass": "^1.58.0",
+    "tsparticles": "^2.8.0",
     "typescript": "4.9.5"
   }
 }
